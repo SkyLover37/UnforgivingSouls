@@ -1,7 +1,7 @@
 Scriptname USLS_UD_CelenePlug_RenderScript extends UD_CustomPlug_RenderScript
 
 import UnforgivingDevicesMain
-
+Faction Property USLS_vibratingFaction Auto
 Function InitPost()
     parent.InitPost()
 EndFunction
@@ -85,11 +85,11 @@ EndFunction
 ;Place new override functions here, do not forget to check override functions in parent if its not base script (UD_CustomDevice_RenderScript)
 ;======================================================================
 Function OnVibrationStart()
-    game.GetPlayer().setFactionRank(libs.zadVibratorFaction, 50)
+    game.GetPlayer().setFactionRank(USLS_vibratingFaction, 50)
     parent.OnVibrationStart()
 EndFunction
 Function OnVibrationEnd()
-    game.GetPlayer().removefromFaction(libs.zadVibratorFaction)
+    game.GetPlayer().removefromFaction(USLS_vibratingFaction)
     parent.OnVibrationEnd()
 EndFunction
 float Function getVibOrgasmRate(float afMult = 1.0)
