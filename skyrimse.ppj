@@ -27,8 +27,12 @@
         <Import>F:\steamLibrary\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
         <Import>F:\Skyrim SE - Mod Organizer\mods\Gossip\Source\Scripts</Import>
         <Import>F:\Skyrim SE - Mod Organizer\mods\State of Dress\Source\Scripts</Import>
+        <Import>F:\Skyrim SE - Mod Organizer\mods\SexLab Inflation Framework\Scripts\Source</Import>
+        <Import>F:\Skyrim SE - Mod Organizer\mods\consoleUtil - Papyrus API\Scripts\Source</Import>
+        <Import>F:\Skyrim SE - Mod Organizer\mods\FNIS Sexy Move SE 7.2\Source\Scripts</Import>
+        <Import>F:\Skyrim SE - Mod Organizer\mods\XP32 Maximum Skeleton Special Extended\scripts\source</Import>
+        <Import>F:\Skyrim SE - Mod Organizer\mods\iWant Widgets\Source\Scripts</Import>
         <Import>.\Source\Scripts</Import>
-        <Import>.\Scripts\Source</Import>
     </Imports>
     <Folders>
         <Folder>.\Source\Scripts</Folder>

@@ -12,9 +12,9 @@ Event OnEffectStart(Actor akTarget, Actor akCaster)
     Armor plugObject = akTarget.GetWornForm(kSlotMask57) as Armor
     Plug = UDLibs.UDCDMain.getNPCSlot(akTarget).getDeviceByRender(plugObject) as USLS_UD_CelenePlug_RenderScript
     ;Plug = UDLibs.UDCDMain.getNPCSlot(akTarget).getslotForm(27);UDLibs.UDCDMain.getDeviceScriptByRender(akTarget, plugObject) as USLS_UD_CelenePlug_RenderScript
-    if plug 
-        debug.notification("Script found")
-    endif
+    ;if plug 
+    ;    debug.notification("Script found")
+    ;endif
     If USLS_Enemalevel.GetValue()   == 0
         ;debug.notification("Vibrate")
         ;libs.VibrateEffect(PlayerRef, 1, 100, true, false)
@@ -52,5 +52,5 @@ Event OnEffectStart(Actor akTarget, Actor akCaster)
 	  ;debug.notification("Vibrate") 
         ;libs.VibrateEffect(PlayerRef, 5, 100, false, false)
 	EndIF
-    miscutil.printconsole("Enema: "+USLS_Enemalevel.GetValue()+"  Vibrate: ")
+    ;miscutil.printconsole("Enema: "+USLS_Enemalevel.GetValue()+"  Vibrate: ")
 EndEvent
