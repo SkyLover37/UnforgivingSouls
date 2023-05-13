@@ -7,32 +7,32 @@
     Release="false" 
     Final="false">
     <Imports>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\Unforgiving Devices\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\SkyUI_5.1_SDK\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\MCM SDK\Source\Scripts\MCM Helper</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\JContainers SE\Scripts\Source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\powerofthree's Papyrus Extender\Source\scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\PapyrusUtil AE SE - Scripting Utility Functions\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\Mfg Fix\source\scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\OSL Aroused\Scripts\Source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\FNIS Creature Pack SE 7.6\source\scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\FNIS Behavior SE\source\scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\RaceMenu Anniversary Edition\scripts\source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\CreatureFrameworkV3_0\scripts\source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\SexLab Framework PPLUS\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\SexLabFrameworkAE_v\scripts\Source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\WildLife for Toys SE V\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\Toys_Framework_SE_V\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\Devious Devices for SE-AE-VR\Source\scripts</Import>
-        <Import>F:\steamLibrary\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\Gossip\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\State of Dress\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\SexLab Inflation Framework\Scripts\Source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\consoleUtil - Papyrus API\Scripts\Source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\FNIS Sexy Move SE 7.2\Source\Scripts</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\XP32 Maximum Skeleton Special Extended\scripts\source</Import>
-        <Import>F:\Skyrim SE - Mod Organizer\mods\iWant Widgets\Source\Scripts</Import>
+        <Import>..\Unforgiving Devices\Source\Scripts</Import>
+        <Import>..\SkyUI_5.1_SDK\Source\Scripts</Import>
+        <Import>..\MCM SDK\Source\Scripts\MCM Helper</Import>
+        <Import>..\JContainers SE\Scripts\Source</Import>
+        <Import>..\powerofthree's Papyrus Extender\Source\scripts</Import>
+        <Import>..\PapyrusUtil AE SE - Scripting Utility Functions\Source\Scripts</Import>
+        <Import>..\Mfg Fix\source\scripts</Import>
+        <Import>..\OSL Aroused\Scripts\Source</Import>
+        <Import>..\FNIS Creature Pack SE 7.6\source\scripts</Import>
+        <Import>..\FNIS Behavior SE\source\scripts</Import>
+        <Import>..\RaceMenu Anniversary Edition\scripts\source</Import>
+        <Import>..\CreatureFrameworkV3_0\scripts\source</Import>
+        <Import>..\SexLab Framework PPLUS\Source\Scripts</Import>
+        <Import>..\SexLabFrameworkAE_v\scripts\Source</Import>
+        <Import>..\WildLife for Toys SE V\Source\Scripts</Import>
+        <Import>..\Toys_Framework_SE_V\Source\Scripts</Import>
+        <Import>..\Devious Devices for SE-AE-VR\Source\scripts</Import>
+        <Import>..\Gossip\Source\Scripts</Import>
+        <Import>..\State of Dress\Source\Scripts</Import>
+        <Import>..\SexLab Inflation Framework\Scripts\Source</Import>
+        <Import>..\consoleUtil - Papyrus API\Scripts\Source</Import>
+        <Import>..\FNIS Sexy Move SE 7.2\Source\Scripts</Import>
+        <Import>..\XP32 Maximum Skeleton Special Extended\scripts\source</Import>
+        <Import>..\iWant Widgets\Source\Scripts</Import>
         <Import>.\Source\Scripts</Import>
+        <Import>$SKYRIMPATH\Data\Source\Scripts</Import>
     </Imports>
     <Folders>
         <Folder>.\Source\Scripts</Folder>
